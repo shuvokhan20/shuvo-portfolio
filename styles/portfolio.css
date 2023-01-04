@@ -1,124 +1,149 @@
 .header{
-    
-background: #FFF8F3;
-background-image: url('../images/header_bg.png'), url('../images/developer.png');
-background-repeat: no-repeat;
-background-position: bottom right,left;
-
-
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
 }
 
 *{
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-}
-nav{
-    display: flex;
-    justify-content: space-between;
-    margin: 100px 100px;
-}
-.nav-taital{
-    font-weight: 800;
-font-size: 50px;
-}
-nav li{list-style: none;
-    margin-left: 20px;
-    align-items: center;
-
-}
-nav ul{
-    display: flex;
-}
-.text-paimary{
-    color:orangered;
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        margin: 100px 100px;
+    }
+    .nav-taital{
+        font-weight: 800;
+    font-size: 50px;
+    }
+    nav li{list-style: none;
+        margin-left: 20px;
+        align-items: center;
     
-}
-.bs{
-    width: 65px;
-    height: 30px;
-left: 20px;
-top: 30px;
-background: #FD6E0A;
-border-radius: 5px;
-border: 0ch;
-/* White Color */
-
-color: #FFFFFF;
-}
-.banner{
-    margin: 0 100px;
-    display: flex;
-    align-items: center;
-
-}
-.banner-taitel{
-    font-weight: 600;
-font-size: 45px;
-margin-bottom: 10px;
-
-}
-.banner-sabtaitel{
-    font-weight: 700;
-font-size: 85px;
-
-}
-.b-d{
-    color: #757575;
-    font-size: 18px;
-    margin-bottom: 30px;
-}
-.bn{
-    height: 40px;
+    }
+    nav ul{
+        display: flex;
+    }
+    .text-paimary{
+        color:orangered;
+        
+    }
+    .bs{
+        width: 65px;
+        height: 30px;
     left: 20px;
+    top: 30px;
     background: #FD6E0A;
-border-radius: 5px;
-border: 0ch;
-color: #FFFFFF;
-width: 200px;
-/* margin-bottom: 50px; */
-margin-bottom:px;
-}
-h2{
-    font-weight: 800;
-font-size: 45px;
-}
-main{
-    max-width: 1140px;
-    margin: 0 auto;
-}
-.about{
-margin-top: 130px;
-background: #FFF8F3;
-border-radius: 10px;
-padding: 130px 150px;
-text-align: center;
-}
-.am{
-text-align: center;
-margin-bottom: 30px;
-font-weight: 700;
-font-size: 35px;
-color: #181818;
-}
-.for-web{
-    color: #757575;
-    font-size: 18px;
-    margin-bottom: 30px;
-
-}
-.about-containaer{display: flex;
-    justify-content: space-around;
-
-}
-.about .info-title{
-    font-size: 20px;
-    color: #757575
-}
-.info-description{
-    font-weight: 700;
-font-size: 20px;
-color: #474747;
-
-}
-
+    border-radius: 5px;
+    border: 0ch;
+    /* White Color */
     
+    color: #FFFFFF;
+    }
+    .banner{
+        margin: 0 100px;
+        display: flex;
+        align-items: center;
+    
+    }
+    .banner-taitel{
+        font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 10px;
+    
+    }
+    .banner-sabtaitel{
+        font-weight: 700;
+    font-size: 85px;
+    
+    }
+    .b-d{
+        color: #757575;
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .bn{
+        height: 40px;
+        left: 20px;
+        background: #FD6E0A;
+    border-radius: 5px;
+    border: 0ch;
+    color: #FFFFFF;
+    width: 200px;
+    /* margin-bottom: 50px; */
+    margin-bottom:50px;
+    }
+    h2{
+        font-weight: 800;
+    font-size: 45px;
+    }
+    main{
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    .about{
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    }
+    .am{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    }
+    .for-web{
+        color: #757575;
+        font-size: 18px;
+        margin-bottom: 30px;
+    
+    }
+    .about-containaer{display: flex;
+        justify-content: space-around;
+    
+    }
+    .about .info-title{
+        font-size: 20px;
+        color: #757575
+    }
+    .info-description{
+        font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+    }
+    .what-i-do{
+        margin-top: 130px;
+    }
+    .skills-container{
+        display: flex;
+        gap: 24px;
+        
+
+    }
+    .skill{
+        background: #FFFFFF;
+box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+border-radius: 5px;
+padding: 30px;
+    }
+    .skill-title{
+        font-weight: 700;
+font-size: 20px;
+margin-top: 30px;
+margin-bottom: 20px;
+
+    }
+    .skill-description{
+        color: #757575;
+    }
+.secion-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
